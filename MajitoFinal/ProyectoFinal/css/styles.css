@@ -1,0 +1,490 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* # Estilos Scroll */
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #e499c6;
+}
+
+body::-webkit-scrollbar-thumb {
+  /*background: white, 0.2;*/
+  border-radius: 10px;
+  border-right: 10px solid #fff7fb;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: hero-new, sans-serif;
+  font-weight: 100;
+  color: #440a0a;
+}
+
+a {
+  text-decoration: none;
+  color: #f2eee1;
+}
+
+a:hover {
+  color: #AC4B4B;
+  /*color: #f07d6d;*/
+}
+
+/* C A M B I O S   I N I C I O*/
+.bg-ligero-t {
+  background-color: #F9EEEE;
+  /* #F3E5E5; #FFF3F3;*/
+  opacity: 0.5;
+}
+
+.bg-ligero {
+  background-color: #472125;
+  /* #F3E5E5; #FFF3F3;*/
+}
+
+.opacidad-1 {
+  opacity: 1 !important;
+}
+
+/*NUEVO PARA SECCIÓN DE CLIENTES*/
+.bg-ligero-client {
+  background-color: #f1e5e3;
+}
+
+/*NUEVO*/
+.bg-ligero-t {
+  background-color: #52232e;
+  opacity: 50%;
+}
+
+/*NUEVO*/
+h4 {
+  font-family: hero-new, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color: #000000;
+}
+
+/*NUEVO*/
+.h4-rosita {
+  font-family: hero-new, sans-serif;
+  font-weight: 800;
+  color: #826363;
+}
+
+/*NUEVO*/
+.subtitle {
+  font-family: hero-new, sans-serif;
+  font-weight: 10;
+  font-style: italic;
+  color: #F6F1EE;
+}
+
+/*NUEVO*/
+.boton-cotizacion {
+  border: 3px solid;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: bold;
+  color: #0d0c0c;
+  background-color: #430909;
+}
+
+/*NUEVO*/
+.bg-cotizacion {
+  background-image: url("../img/solyluna.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.card {
+  background-color: #f1e5e3;
+  /* background-color: #F4E6E6;*/
+  border: none;
+  text-align: center;
+}
+
+/*NUEVO*/
+.boton-modal {
+  border: 3px solid;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-weight: bold;
+  background-color: #3a1212;
+  color: #F6F1EE;
+}
+
+/*NUEVO*/
+.bg-apps {
+  background-image: url("../img/acuarela1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+/*NUEVO*/
+.bg-multimedia {
+  background-image: url("../img/photoshop1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+/*NUEVO*/
+.bg-web {
+  background-image: url("../img/Fotografía2.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+/*NUEVO*/
+.collapsed {
+  background-color: #744448;
+}
+
+/*NUEVO*/
+.contenedor-rel {
+  position: relative;
+  top: 500px;
+  left: 100px;
+}
+
+/*NUEVO*/
+.contenedor-abs {
+  position: absolute;
+  left: 900px;
+  margin-top: 10%;
+}
+
+/*.bg-principal{
+    background-color: #e0d1cf;
+    font-family: hero-new, sans-serif;;
+    color: rgb(203, 147, 147);
+}*/
+/* C A M B I O S   F I N  */
+i {
+  font-size: 3rem;
+}
+
+.title {
+  font-style: italic;
+  color: #3b2d2d;
+}
+
+.textoseparador {
+  font-weight: 900;
+  font-size: x-large;
+  font-style: normal;
+  color: #000000;
+}
+
+.bg-principal {
+  background-color: #723333;
+  font-family: hero-new, sans-serif;
+  color: white;
+}
+
+.bg-principal:hover {
+  color: #e9c2d8;
+}
+
+.bg-medio {
+  background-color: #5d5b7e;
+}
+
+p {
+  font-family: hero-new, sans-serif;
+  font-weight: 100;
+  color: #000000;
+}
+
+h1 {
+  font-family: jeanne-moderno-ultra, serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #0f0106;
+}
+
+h2 {
+  font-family: hero-new, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+h3 {
+  font-family: hero-new, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+h5 {
+  font-family: jeanne-moderno-titling, serif;
+  font-weight: 1000;
+  font-style: italic;
+  color: #52232e;
+}
+
+h6 {
+  font-family: jeanne-moderno-titling, serif;
+  font-weight: 1000;
+  font-style: italic;
+  color: #a57984;
+}
+
+.pad {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.boton {
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: bold;
+  color: #3a0d0d;
+}
+
+.btn {
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: bold;
+  color: #d8d1b8;
+}
+
+.bg-portada {
+  background-image: url("../img/solyluna.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+}
+
+.background-separador {
+  background-image: url("../img/cuadros.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35vh;
+}
+
+.bg-separador {
+  background-image: url("../img/papel.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.bg-footer {
+  border: none;
+  background-color: #3b1010;
+}
+
+.card-round {
+  background-color: #f1e5e3;
+  border-radius: 70;
+  text-align: center;
+}
+
+.toast body {
+  font-family: jeanne-moderno-titling, serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #9d6df0;
+  text-align: center;
+}
+
+/* GALERÍA 1 MODAL */
+#portfolio1 .portfolio-item {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio1 .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#portfolio1 .portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(251, 113, 251, 0.438);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+
+#portfolio1 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: #b49696;
+}
+
+#portfolio1 .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+}
+
+#portfolio1 .portfolio-item .portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+#portfolio1 .portfolio-item .portfolio-caption .portfolio-caption-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+/* ESTILOS DEL MODAL */
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.623);
+  border: none;
+  border-radius: 0;
+  color: #f0d0d0;
+}
+
+.modal-content a {
+  color: #fae7e7;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+/* GALERÍA 2 COMPLEJA */
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+  color: #493030;
+  background: var(--color-principal);
+}
+
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(17, 17, 17, 0.6);
+}
+
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(17, 17, 17, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.portfolio .portfolio-wrap img {
+  transition: all ease-in-out 0.3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 20px;
+  color: #927676;
+  font-weight: 600;
+}
+
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: rgba(90, 67, 67, 0.7);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+.portfolio .portfolio-wrap .portfolio-links {
+  text-align: center;
+  z-index: 4;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 5px 0 0;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  color: #fff;
+}
+
+.portfolio .portfolio-wrap:hover::before {
+  opacity: 1;
+}
+
+.portfolio .portfolio-wrap:hover img {
+  transform: scale(1.2);
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+
+.offcanvas-top {
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 90vh;
+  max-height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateY(-100%);
+}
